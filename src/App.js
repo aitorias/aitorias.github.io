@@ -7,8 +7,6 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import BackToTop from "./components/BackToTop/BackToTop";
 
-import "./App.css";
-
 function App() {
   return (
     <div className="bg-white dark:bg-slate-900">
