@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 
-import Menu from "../Menu/Menu";
-import DarkMode from "../DarkMode/DarkMode";
-import MenuButton from "../MenuButton/MenuButton";
+import DarkMode from "../../DarkMode/DarkMode";
 
 export default function Header() {
   return (
@@ -16,10 +14,8 @@ export default function Header() {
             >
               aitorias
             </Link>
-            <Menu />
             <div className="items-center flex justify-between space-x-7 order-2 md:order-3">
               <DarkMode />
-              <MenuButton toggleId="navbar" />
             </div>
           </nav>
         </div>

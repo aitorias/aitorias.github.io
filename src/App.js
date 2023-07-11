@@ -1,29 +1,20 @@
-import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
-import AboutMe from "./components/AboutMe/AboutMe";
-import Specialties from "./components/Specialties/Specialties";
-import Portfolio from "./components/Portfolio/Portfolio";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
-import BackToTop from "./components/BackToTop/BackToTop";
+import React from "react";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
-function App() {
+import NotFound from "./components/NotFound/NotFound";
+import Home from "./Home";
+import Frontendmentor from "./Frontendmentor";
+import Project from "./components/Frontendmentor/Project/Project";
+
+export default function App() {
   return (
-    <div className="bg-white dark:bg-slate-900">
-      <Header />
-      <main className="mb-7">
-        <div className="page">
-          <Hero />
-          <AboutMe />
-          <Specialties />
-          <Portfolio />
-          <Contact />
-        </div>
-      </main>
-      <Footer />
-      <BackToTop />
-    </div>
+    <HashRouter basename="/">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/frontendmentor" element={<Frontendmentor />} />
+        <Route path="/frontendmentor/:project" element={<Project />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </HashRouter>
   );
 }
-
-export default App;

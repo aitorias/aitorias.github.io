@@ -42,6 +42,9 @@ module.exports = {
       minHeight: {
         500: "500px",
       },
+      minWidth: {
+        "1/2": "50%",
+      },
       spacing: {
         25: "5rem",
       },
