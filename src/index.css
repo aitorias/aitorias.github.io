@@ -4,6 +4,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 @font-face {
   font-family: "Hanken Grotesk";
@@ -46,14 +47,19 @@
   --green-teal: hsl(166, 100%, 37%);
   --light-gray: hsl(212, 45%, 89%);
   --light-red: hsl(0, 100%, 67%);
+  --orange: hsl(25, 97%, 53%);
   --orange-yellow: hsl(39, 100%, 56%);
 
   /* Neutral */
+  --dark-blue: hsl(213, 19%, 18%);
   --dark-gray-blue: hsl(224, 30%, 27%);
   --dark-grayish-blue: hsl(228, 12%, 48%);
+  --light-grey: hsl(217, 12%, 63%);
   --light-lavender: hsl(241, 100%, 89%);
+  --medium-grey: hsl(216, 12%, 54%);
   --pale-blue: hsl(221, 100%, 96%);
   --very-dark-blue: hsl(212, 21%, 14%);
+  --very-dark-blue-interactive: hsl(216, 12%, 8%);
   --white: hsl(0, 0%, 100%);
 
   /* font */
@@ -61,8 +67,9 @@
   --font-family-hanken-grotesk: "Hanken Grotesk", Arial, Helvetica, sans-serif;
   --font-family-montserrat: "Montserrat", Arial, Helvetica, sans-serif;
   --font-family-outfit: "Outfit", Arial, Helvetica, sans-serif;
-  --font-size-qr: 15px;
+  --font-family-overpass: "Overpass", Arial, Helvetica, sans-serif;
 
+  --font-size-qr: 15px;
   --font-size-results-summary: 18px;
 
   /* Gradients */

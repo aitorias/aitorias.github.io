@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import QrCode from "../QrCode/QrCode";
 import Results from "../Results/Results";
 import ProductCard from "../ProductCard/ProductCard";
+import InteractiveRating from "../InteractiveRating/InteractiveRating";
 import NotFound from "../../NotFound/NotFound";
 
 export default function Project() {
@@ -23,6 +24,8 @@ export default function Project() {
             return <Results />;
           case "product-preview-card":
             return <ProductCard />;
+          case "interactive-rating":
+            return <InteractiveRating />;
           default:
             return <NotFound />;
         }

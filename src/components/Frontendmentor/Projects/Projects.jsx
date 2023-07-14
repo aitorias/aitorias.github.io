@@ -2,7 +2,7 @@ import Card from "../Card/Card";
 
 export default function Projects() {
   return (
-    <div className="flex flex-wrap gap-4 px-4 py-4 lg:grid lg:grid-cols-2 xl:grid-cols-3 xl:px-0">
+    <div className="flex flex-wrap gap-8 px-4 py-4 lg:grid lg:grid-cols-2 xl:grid-cols-3 xl:gap-4 xl:px-0">
       <Card
         slug={`qr-code`}
         link={`qr-code`}
@@ -23,6 +23,13 @@ export default function Projects() {
         image={`https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/lftjtn81b7brs2icc898.jpg`}
         title={`Product preview card`}
         description={`This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects.`}
+      />
+      <Card
+        slug={`interactive-rating`}
+        link={`interactive-rating`}
+        image={`https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/hxx2bhmtmeelt0a98zos.jpg`}
+        title={`Interactive rating component`}
+        description={`This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!`}
       />
     </div>
   );
