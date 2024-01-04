@@ -1,0 +1,71 @@
+.skills {
+    background-image: url("/public/japanese-street.gif");
+}
+
+@keyframes left {
+    from {
+        opacity: 0;
+        scale: 25%;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        scale: 100%;
+        transform: translateX(0);
+    }
+}
+
+@keyframes top {
+    from {
+        opacity: 0;
+        scale: 25%;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        scale: 100%;
+        transform: translateY(0);
+    }
+}
+
+.timelineTitle {
+    view-timeline-name: --title;
+    view-timeline-axis: block;
+
+    animation-timeline: --title;
+    animation-name: left;
+    animation-range: entry 10% cover 50%;
+    animation-fill-mode: both;
+}
+
+.timelineText {
+    view-timeline-name: --text;
+    view-timeline-axis: block;
+
+    animation-timeline: --text;
+    animation-name: top;
+    animation-range: entry 15% cover 20%;
+    animation-fill-mode: both;
+}
+
+.curtainOpen {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    transform: translateX(100%);
+}
+
+.curtainOpen:before {
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    color: inherit;
+    content: "←";
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    left: -40px;
+    position: absolute;
+    width: 40px;
+}

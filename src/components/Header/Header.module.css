@@ -1,0 +1,7 @@
+.menuSidebar {
+    transform: translateX(100%);
+}
+
+.menuOpened {
+    transform: translateX(0);
+}
