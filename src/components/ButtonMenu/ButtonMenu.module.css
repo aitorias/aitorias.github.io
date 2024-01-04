@@ -11,9 +11,28 @@
 }
 
 .buttonActive .bottomBar {
-    -webkit-transform: translateY(-5px) rotateZ(-45deg);
-    -moz-transform: translateY(-5px) rotateZ(-45deg);
-    -ms-transform: translateY(-5px) rotateZ(-45deg);
-    -o-transform: translateY(-5px) rotateZ(-45deg);
-    transform: translateY(-5px) rotateZ(-45deg);
+    -webkit-transform: translateY(-7px) rotateZ(-45deg);
+    -moz-transform: translateY(-7px) rotateZ(-45deg);
+    -ms-transform: translateY(-7px) rotateZ(-45deg);
+    -o-transform: translateY(-7px) rotateZ(-45deg);
+    transform: translateY(-7px) rotateZ(-45deg);
+}
+
+@keyframes pulseButton {
+    0% {
+        box-shadow: 0 0 0 0 rgba(254, 223, 225, 0.7);
+    }
+    40% {
+        box-shadow: 0 0 0 50px rgba(254, 223, 225, 0);
+    }
+    80% {
+        box-shadow: 0 0 0 50px rgba(254, 223, 225, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 rgba(254, 223, 225, 0);
+    }
+}
+
+.pulseButton:hover {
+    animation: pulseButton 1s linear infinite;
 }

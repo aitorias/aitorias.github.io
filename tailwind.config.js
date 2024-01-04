@@ -11,6 +11,9 @@ module.exports = {
                 ai: {
                     DEFAULT: "#0D5661",
                 },
+                ichigo: {
+                    DEFAULT: "#B5495B",
+                },
                 kamenozoki: {
                     DEFAULT: "#A5DEE4",
                 },
@@ -19,6 +22,9 @@ module.exports = {
                 },
                 sakura: {
                     DEFAULT: "#FEDFE1",
+                },
+                sora: {
+                    DEFAULT: "#58B2DC",
                 },
                 wasurenagusa: {
                     DEFAULT: "#7DB9DE",

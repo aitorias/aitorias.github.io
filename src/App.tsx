@@ -12,6 +12,7 @@ import style from './App.module.css';
 
 function App() {
     const [menuOpened, setMenuOpened] = useState(false);
+    const [buttonActive, setButtonActive] = useState(false);
 
     const toggleMenu = () => {
         setMenuOpened((prevOpen) => !prevOpen);
@@ -29,9 +30,9 @@ function App() {
                 </main>
                 <Footer />
             </div>
-            <ButtonMenu onClick={toggleMenu} />
-            <Header opened={menuOpened} onToggleMenu={toggleMenu} />
             <BackToTop />
+            <ButtonMenu onClick={toggleMenu} isActive={buttonActive} setActive={setButtonActive} />
+            <Header opened={menuOpened} onToggleMenu={toggleMenu} setButtonActive={setButtonActive} />
         </>
     );
 }
