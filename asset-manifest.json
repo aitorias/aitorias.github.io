@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.74eba0d3.css",
-    "main.js": "/static/js/main.96e40a8f.js",
+    "main.css": "/static/css/main.bbe16782.css",
+    "main.js": "/static/js/main.64c3992f.js",
     "static/js/787.bbab09b6.chunk.js": "/static/js/787.bbab09b6.chunk.js",
     "static/media/awakenbrandstore-screenshot.png": "/static/media/awakenbrandstore-screenshot.041450b62045fe8a976a.png",
     "static/media/japanese-street.gif": "/static/media/japanese-street.cce06753034dafb9e12a.gif",
@@ -19,12 +19,12 @@
     "index.html": "/index.html",
     "static/media/sql-white.svg": "/static/media/sql-white.b99a7e42eda4f7367b71fc8dbb573c91.svg",
     "static/media/react-white.svg": "/static/media/react-white.0b02413d735f021da45628c3dfc2a613.svg",
-    "main.74eba0d3.css.map": "/static/css/main.74eba0d3.css.map",
-    "main.96e40a8f.js.map": "/static/js/main.96e40a8f.js.map",
+    "main.bbe16782.css.map": "/static/css/main.bbe16782.css.map",
+    "main.64c3992f.js.map": "/static/js/main.64c3992f.js.map",
     "787.bbab09b6.chunk.js.map": "/static/js/787.bbab09b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74eba0d3.css",
-    "static/js/main.96e40a8f.js"
+    "static/css/main.bbe16782.css",
+    "static/js/main.64c3992f.js"
   ]
 }
