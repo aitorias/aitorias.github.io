@@ -2,29 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-*,
-*:before,
-*:after {
-    -webkit-box-sizing: inherit;
-    -moz-box-sizing: inherit;
-    box-sizing: inherit;
-}
+@layer base {
+    :root {
+        --ai: 13 86 97;
+        --ichigo: 181 73 91;
+        --kamenozoki: 165 222 228;
+        --momo: 245 150 170;
+        --sakura: 254 223 225;
+        --sora: 88 178 220;
+        --wasurenagusa: 125 185 222;
+    }
 
-body {
-    font-family: "Montserrat", -apple-system, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    margin: 0;
-    padding: 0;
-}
+    html {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    *,
+    *:before,
+    *:after {
+        -webkit-box-sizing: inherit;
+        -moz-box-sizing: inherit;
+        box-sizing: inherit;
+    }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-        monospace;
+    body {
+        font-family: "Montserrat", -apple-system, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        margin: 0;
+        padding: 0;
+    }
+
+    code {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+            monospace;
+    }
 }

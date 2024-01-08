@@ -26,9 +26,9 @@ function About() {
         <section className="items-center bg-kamenozoki flex flex-col gap-0 h-screen justify-center lg:flex-row lg:gap-0 lg:justify-between" id="about-me">
             <div className="items-center flex flex-col justify-center lg:w-6/12">
                 <div className="flex flex-col gap-4 justify-center py-8 px-4 lg:px-8 text-center">
-                    <h2 className={`font-bold text-4xl lg:text-6xl ${style.timelineTitle}`}>About me</h2>
-                    <p className={`text-2xl lg:text-4xl text-left first-letter:text-5xl lg:first-letter:text-9xl first-letter:font-bold first-letter:float-left first-letter:mr-4 ${style.timelineText}`}>I'm a creative front end developer and junior programmer based in Barcelona. Usually working to create astonishing and fancy projects where I can release my full potential.</p>
-                    <p className={`text-2xl lg:text-4xl text-left ${style.timelineText}`}>These are my skills:</p>
+                    <h2 className={`text-black font-bold text-4xl lg:text-6xl ${style.timelineTitle}`}>About me</h2>
+                    <p className={`text-black text-2xl lg:text-4xl text-left first-letter:text-5xl lg:first-letter:text-9xl first-letter:font-bold first-letter:float-left first-letter:mr-4 ${style.timelineText}`}>I'm a creative front end developer and junior programmer based in Barcelona. Usually working to create astonishing and fancy projects where I can release my full potential.</p>
+                    <p className={`text-black text-2xl lg:text-4xl text-left ${style.timelineText}`}>These are my skills:</p>
                 </div>
             </div>
             <div className="items-center flex overflow-hidden relative h-full w-full lg:w-6/12">
