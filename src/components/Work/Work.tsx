@@ -39,7 +39,9 @@ function Work() {
                         desktopImage={gencat}
                         alt={`Gencat`} />
                     <section className="border-t border-gray-400 flex flex-col gap-8 p-6">
-                        <span className="bg-momo rounded-md text-black text-xs text-md px-2 py-2 w-fit">From scratch</span>
+                        <div className="flex flex-wrap gap-4">
+                            <span className="bg-kamenozoki rounded-md text-black text-xs text-md px-2 py-2 w-fit">Outsourcing</span>
+                        </div>
                         <h3 className="text-black text-4xl">Gencat - Generalitat de Catalunya</h3>
                         <a className="items-center bg-kamenozoki hover:bg-ai text-black hover:text-white text-xl rounded-md flex gap-2 py-1 px-2 transition-all w-fit" href="https://web.gencat.cat/en/inici/index.html" target="_blank" rel="nofollow noopener noreferrer">
                             Visit
@@ -56,7 +58,10 @@ function Work() {
                         desktopImage={icf}
                         alt={`ICF`} />
                     <section className="border-t border-gray-400 flex flex-col gap-8 p-6">
-                        <span className="bg-momo rounded-md text-black text-xs text-md px-2 py-2 w-fit">From scratch</span>
+                        <div className="flex flex-wrap gap-4">
+                            <span className="bg-momo rounded-md text-black text-xs text-md px-2 py-2 w-fit">From scratch</span>
+                            <span className="bg-kamenozoki rounded-md text-black text-xs text-md px-2 py-2 w-fit">Outsourcing</span>
+                        </div>
                         <h3 className="text-black text-4xl">ICF - Institut Català de Finances</h3>
                         <a className="items-center bg-kamenozoki hover:bg-ai text-black hover:text-white text-xl rounded-md flex gap-2 py-1 px-2 transition-all w-fit" href="https://www.icf.cat/en/inici/index.html" target="_blank" rel="nofollow noopener noreferrer">
                             Visit

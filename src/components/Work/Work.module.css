@@ -24,22 +24,22 @@
 .horizontalScrollbar {
     scrollbar-width: auto;
     scrollbar-color: #7db9de #0d5661;
+}
 
-    &::-webkit-scrollbar {
-        height: 1em;
-    }
+.horizontalScrollbar::-webkit-scrollbar {
+    height: 1em;
+}
 
-    &::-webkit-scrollbar-track {
-        background-color: #0d5661;
-        border-radius: 100vh;
-    }
+.horizontalScrollbar::-webkit-scrollbar-track {
+    background-color: #0d5661;
+    border-radius: 100vh;
+}
 
-    &::-webkit-scrollbar-thumb {
-        background-color: #7db9de;
-        border-radius: 100vh;
-    }
+.horizontalScrollbar::-webkit-scrollbar-thumb {
+    background-color: #7db9de;
+    border-radius: 100vh;
+}
 
-    &::-webkit-scrollbar-thumb:hover {
-        background-color: #58b2dc;
-    }
+.horizontalScrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #58b2dc;
 }
