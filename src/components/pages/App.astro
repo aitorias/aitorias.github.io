@@ -1,0 +1,14 @@
+---
+import { getI18N } from "@/i18n"
+import Layout from "@/layouts/Layout.astro"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+---
+
+<Layout
+  title=`${i18n.TITLES.HOME.TITLE} ${new Date().getFullYear()}`
+  description={i18n.TITLES.HOME.DESCRIPTION}
+>
+  <h1>Test</h1>
+</Layout>

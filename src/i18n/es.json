@@ -1,0 +1,18 @@
+{
+  "PAGES": {
+    "ERROR_404": {
+      "BACK_HOME_BUTTON": "Vuelve al inicio",
+      "TITLE": "Página no encontrada"
+    }
+  },
+  "TITLES": {
+    "ERROR_404": {
+      "TITLE": "404 Página no encontrada - Aitorias",
+      "DESCRIPTION": "Página no encontrada (Error 404). Verifica la URL o explora nuestras secciones. ¿Necesitas ayuda? Contáctanos."
+    },
+    "HOME": {
+      "TITLE": "Aitorias",
+      "DESCRIPTION": "Desarrollador front end y experto en SEO"
+    }
+  }
+}

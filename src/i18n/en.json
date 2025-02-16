@@ -1,0 +1,19 @@
+{
+  
+  "PAGES": {
+    "ERROR_404": {
+		"BACK_HOME_BUTTON": "Back to Home",
+		"TITLE": "Page not found"
+	}
+  },
+  "TITLES": {
+    "ERROR_404": {
+      "TITLE": "404 Page not found - Aitorias",
+      "DESCRIPTION": "Page not found (Error 404). Verify the URL or explore our sections. Do you need help? Contact us."
+    },
+    "HOME": {
+      "TITLE": "Aitorias",
+      "DESCRIPTION": "Front end developer & SEO Expertise"
+    }
+  }
+}

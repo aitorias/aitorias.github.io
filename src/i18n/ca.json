@@ -1,0 +1,18 @@
+{
+  "PAGES": {
+    "ERROR_404": {
+      "BACK_HOME_BUTTON": "Tornar a la pàgina d'inici",
+      "TITLE": "Pàgina no trobada"
+    }
+  },
+  "TITLES": {
+    "ERROR_404": {
+      "TITLE": "404 Pàgina no trobada - Aitorias",
+      "DESCRIPTION": "Pàgina no trobada (Error 404). Verifica la URL o explora les nostres seccions. Necessites ajuda? Contacta'ns."
+    },
+    "HOME": {
+      "TITLE": "Aitorias - Dese",
+      "DESCRIPTION": "Desenvolupador Front end i expert en SEO"
+    }
+  }
+}
