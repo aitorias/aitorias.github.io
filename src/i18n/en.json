@@ -1,10 +1,9 @@
 {
-  
   "PAGES": {
     "ERROR_404": {
-		"BACK_HOME_BUTTON": "Back to Home",
-		"TITLE": "Page not found"
-	}
+      "BACK_HOME_BUTTON": "Back to Home",
+      "TITLE": "Page not found"
+    }
   },
   "TITLES": {
     "ERROR_404": {
