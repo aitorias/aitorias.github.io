@@ -1,7 +1,16 @@
-export const languages = {
-  ca: "Català",
-  en: "English",
-  es: "Spanish",
+export const languages: Record<string, { code: string; name: string }> = {
+  ca: {
+    code: "ca",
+    name: "Català",
+  },
+  en: {
+    code: "en",
+    name: "English",
+  },
+  es: {
+    code: "es",
+    name: "Español",
+  },
 };
 
 export const defaultLang = "en";
